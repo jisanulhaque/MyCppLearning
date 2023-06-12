@@ -41,7 +41,8 @@
     <Project Name="ImplementingMemberMethods" Path="ImplementingMemberMethods/ImplementingMemberMethods.project" Active="No"/>
     <Project Name="TestRun" Path="TestRun/TestRun.project" Active="No"/>
     <Project Name="ImplementingMemberMethod2" Path="ImplementingMemberMethod2/ImplementingMemberMethod2.project" Active="No"/>
-    <Project Name="ConstructorAndDestructor" Path="ConstructorAndDestructor/ConstructorAndDestructor.project" Active="Yes"/>
+    <Project Name="ConstructorAndDestructor" Path="ConstructorAndDestructor/ConstructorAndDestructor.project" Active="No"/>
+    <Project Name="DefaultConstructor" Path="DefaultConstructor/DefaultConstructor.project" Active="Yes"/>
   </VirtualDirectory>
   <Project Name="ProgramTemplate" Path="ProhramTemplate/ProhramTemplate.project" Active="No"/>
   <BuildMatrix>
@@ -83,6 +84,7 @@
       <Project Name="ImplementingMemberMethod" ConfigName="Debug"/>
       <Project Name="ImplementingMemberMethod2" ConfigName="Debug"/>
       <Project Name="ConstructorAndDestructor" ConfigName="Debug"/>
+      <Project Name="DefaultConstructor" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -122,6 +124,7 @@
       <Project Name="ImplementingMemberMethod" ConfigName="Release"/>
       <Project Name="ImplementingMemberMethod2" ConfigName="Release"/>
       <Project Name="ConstructorAndDestructor" ConfigName="Release"/>
+      <Project Name="DefaultConstructor" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
