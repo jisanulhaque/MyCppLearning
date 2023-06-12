@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="MyWorkspace" Database="" Version="10000">
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="BasicInputOutput" Path="BasicInputOutput/BasicInputOutput.project" Active="No"/>
+  <Project Name="VariablesAndConstants" Path="VariablesAndConstants/VariablesAndConstants.project" Active="No"/>
+  <Project Name="ArraysAndVectors" Path="ArraysAndVectors/ArraysAndVectors.project" Active="No"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
+  <Project Name="StatementsAndOperators" Path="StatementsAndOperators/StatementsAndOperators.project" Active="No"/>
+  <Project Name="ControlFlow" Path="ControlFlow/ControlFlow.project" Active="No"/>
+  <Project Name="CharactersAndStrings" Path="CharactersAndStrings/CharactersAndStrings.project" Active="No"/>
+  <Project Name="Function" Path="Function/Function.project" Active="No"/>
+  <VirtualDirectory Name="Section11">
+    <Project Name="FunctionParameter" Path="FunctionParameter/FunctionParameter.project" Active="No"/>
+    <Project Name="DefaultArguments" Path="DefaultArguments/DefaultArguments.project" Active="No"/>
+    <Project Name="FunctionOverloading" Path="FunctionOverloading/FunctionOverloading.project" Active="No"/>
+    <Project Name="ArraysAndFunction" Path="ArraysAndFunction/ArraysAndFunction.project" Active="No"/>
+    <Project Name="PassByReferance" Path="PassByReferance/PassByReferance.project" Active="No"/>
+    <Project Name="ScopeExamples" Path="ScopeExamples/ScopeExamples.project" Active="No"/>
+    <Project Name="HowFunctionCallsWork" Path="HowFunctionCallsWork/HowFunctionCallsWork.project" Active="No"/>
+    <Project Name="RecursiveFunction" Path="RecursiveFunction/RecursiveFunction.project" Active="No"/>
+    <Project Name="Factorial" Path="Factorial/Factorial.project" Active="No"/>
+    <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
+    <Project Name="SectionChallengeFunction" Path="SectionChallengeFunction/SectionChallengeFunction.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section12">
+    <Project Name="SimplePointer" Path="SimplePointer/SimplePointer.project" Active="No"/>
+    <Project Name="Dereferencing" Path="Dereferencing/Dereferencing.project" Active="No"/>
+    <Project Name="DynamicMemory" Path="DynamicMemory/DynamicMemory.project" Active="No"/>
+    <Project Name="PointersAndArrays" Path="PointersAndArrays/PointersAndArrays.project" Active="No"/>
+    <Project Name="PointerArithmetic" Path="PointerArithmetic/PointerArithmetic.project" Active="No"/>
+    <Project Name="PassingPointers1" Path="PassingPointers1/PassingPointers1.project" Active="No"/>
+    <Project Name="PassingPointers2" Path="PassingPointers2/PassingPointers2.project" Active="No"/>
+    <Project Name="PassingPointers3" Path="PassingPointers3/PassingPointers3.project" Active="No"/>
+    <Project Name="ReturnPointer" Path="ReturnPointer/ReturnPointer.project" Active="No"/>
+    <Project Name="References" Path="References/References.project" Active="No"/>
+    <Project Name="Debugger" Path="Debugger/Debugger.project" Active="No"/>
+    <Project Name="ReverseString" Path="ReverseString/ReverseString.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section13">
+    <Project Name="DeclareClassAndObjects" Path="DeclareClassAndObjects/DeclareClassAndObjects.project" Active="No"/>
+    <Project Name="ImplementingMemberMethods" Path="ImplementingMemberMethods/ImplementingMemberMethods.project" Active="No"/>
+    <Project Name="TestRun" Path="TestRun/TestRun.project" Active="No"/>
+    <Project Name="ImplementingMemberMethod2" Path="ImplementingMemberMethod2/ImplementingMemberMethod2.project" Active="No"/>
+    <Project Name="ConstructorAndDestructor" Path="ConstructorAndDestructor/ConstructorAndDestructor.project" Active="Yes"/>
+  </VirtualDirectory>
+  <Project Name="ProgramTemplate" Path="ProhramTemplate/ProhramTemplate.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="BasicInputOutput" ConfigName="Debug"/>
+      <Project Name="VariablesAndConstants" ConfigName="Debug"/>
+      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
+      <Project Name="Vectors" ConfigName="Debug"/>
+      <Project Name="StatementsAndOperators" ConfigName="Debug"/>
+      <Project Name="ControlFlow" ConfigName="Debug"/>
+      <Project Name="CharactersAndStrings" ConfigName="Debug"/>
+      <Project Name="Function" ConfigName="Debug"/>
+      <Project Name="FunctionParameter" ConfigName="Debug"/>
+      <Project Name="DefaultArguments" ConfigName="Debug"/>
+      <Project Name="FunctionOverloading" ConfigName="Debug"/>
+      <Project Name="ArraysAndFunction" ConfigName="Debug"/>
+      <Project Name="PassByReferance" ConfigName="Debug"/>
+      <Project Name="ScopeExamples" ConfigName="Debug"/>
+      <Project Name="HowFunctionCallsWork" ConfigName="Debug"/>
+      <Project Name="Factorial" ConfigName="Debug"/>
+      <Project Name="Fibonacci" ConfigName="Debug"/>
+      <Project Name="SectionChallengeFunction" ConfigName="Debug"/>
+      <Project Name="SimplePointer" ConfigName="Debug"/>
+      <Project Name="Dereferencing" ConfigName="Debug"/>
+      <Project Name="DynamicMemory" ConfigName="Debug"/>
+      <Project Name="PointersAndArrays" ConfigName="Debug"/>
+      <Project Name="PointerArithmetic" ConfigName="Debug"/>
+      <Project Name="PassingPointers1" ConfigName="Debug"/>
+      <Project Name="PassingPointers2" ConfigName="Debug"/>
+      <Project Name="PassingPointers3" ConfigName="Debug"/>
+      <Project Name="ReturnPointer" ConfigName="Debug"/>
+      <Project Name="References" ConfigName="Debug"/>
+      <Project Name="Debugger" ConfigName="Debug"/>
+      <Project Name="ReverseString" ConfigName="Debug"/>
+      <Project Name="DeclareClassAndObjects" ConfigName="Debug"/>
+      <Project Name="ProgramTemplate" ConfigName="Debug"/>
+      <Project Name="ImplementingMemberMethod" ConfigName="Debug"/>
+      <Project Name="ImplementingMemberMethod2" ConfigName="Debug"/>
+      <Project Name="ConstructorAndDestructor" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="BasicInputOutput" ConfigName="Release"/>
+      <Project Name="VariablesAndConstants" ConfigName="Release"/>
+      <Project Name="ArraysAndVectors" ConfigName="Release"/>
+      <Project Name="Vectors" ConfigName="Release"/>
+      <Project Name="StatementsAndOperators" ConfigName="Release"/>
+      <Project Name="ControlFlow" ConfigName="Release"/>
+      <Project Name="CharactersAndStrings" ConfigName="Release"/>
+      <Project Name="Function" ConfigName="Release"/>
+      <Project Name="FunctionParameter" ConfigName="Release"/>
+      <Project Name="DefaultArguments" ConfigName="Release"/>
+      <Project Name="FunctionOverloading" ConfigName="Release"/>
+      <Project Name="ArraysAndFunction" ConfigName="Release"/>
+      <Project Name="PassByReferance" ConfigName="Release"/>
+      <Project Name="ScopeExamples" ConfigName="Release"/>
+      <Project Name="HowFunctionCallsWork" ConfigName="Release"/>
+      <Project Name="Factorial" ConfigName="Release"/>
+      <Project Name="Fibonacci" ConfigName="Release"/>
+      <Project Name="SectionChallengeFunction" ConfigName="Release"/>
+      <Project Name="SimplePointer" ConfigName="Release"/>
+      <Project Name="Dereferencing" ConfigName="Release"/>
+      <Project Name="DynamicMemory" ConfigName="Release"/>
+      <Project Name="PointersAndArrays" ConfigName="Release"/>
+      <Project Name="PointerArithmetic" ConfigName="Release"/>
+      <Project Name="PassingPointers1" ConfigName="Release"/>
+      <Project Name="PassingPointers2" ConfigName="Release"/>
+      <Project Name="PassingPointers3" ConfigName="Release"/>
+      <Project Name="ReturnPointer" ConfigName="Release"/>
+      <Project Name="References" ConfigName="Release"/>
+      <Project Name="Debugger" ConfigName="Release"/>
+      <Project Name="ReverseString" ConfigName="Release"/>
+      <Project Name="DeclareClassAndObjects" ConfigName="Release"/>
+      <Project Name="ProgramTemplate" ConfigName="Release"/>
+      <Project Name="ImplementingMemberMethod" ConfigName="Release"/>
+      <Project Name="ImplementingMemberMethod2" ConfigName="Release"/>
+      <Project Name="ConstructorAndDestructor" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
