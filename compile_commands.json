@@ -19,6 +19,10 @@
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ReturnPointer",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ReturnPointer\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ReturnPointer\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
  }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstructorInitializationList\\main.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstructorInitializationList",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstructorInitializationList\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstructorInitializationList\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
   "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic\\main.cpp",
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
