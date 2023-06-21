@@ -32,6 +32,8 @@ int main(){
 	Player frank{"Frank"}; //Hero, 0, 0 
 	Player villain{"Villain", 100, 30};
 	Player hero{"Hero", 80};// writing a 2 args constructor
+	Player *enemy = new Player;
+	delete Player;
 	
 	return 0;
 }
