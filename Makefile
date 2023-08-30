@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CopyConstructor - Debug ]----------"
-	@cd "CopyConstructor" && "$(MAKE)" -f  "CopyConstructor.mk"
+	@echo "----------Building project:[ Mystring-operator-function - Debug ]----------"
+	@cd "Mystring-operator-function" && "$(MAKE)" -f  "Mystring-operator-function.mk"
 clean:
-	@echo "----------Cleaning project:[ CopyConstructor - Debug ]----------"
-	@cd "CopyConstructor" && "$(MAKE)" -f  "CopyConstructor.mk" clean
+	@echo "----------Cleaning project:[ Mystring-operator-function - Debug ]----------"
+	@cd "Mystring-operator-function" && "$(MAKE)" -f  "Mystring-operator-function.mk" clean

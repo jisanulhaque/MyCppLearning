@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -25,23 +26,26 @@ Deep::Deep(int d){
 
 Deep::Deep(const Deep &source)
 	:Deep(*source.data) {
-	cout<<"Copy Constructor-Deep Copy"<<endl;
+	cout<<"Copy Constructor-Deep Copy for- "<<*data<<endl;
 }
 Deep::~Deep(){
+	cout<<"Desconstructor freeing data for-"<<*data<<endl;
 	delete data;
-	cout<<"Desconstructor freeing data"<<endl;
+	
 }
 
 void display_deep(Deep s){
 	cout<<s.get_data_value()<<endl;
 }
 int main(){
-	Deep obj1{100};
-	display_deep(obj1);
-	
-	Deep obj2{obj1};
-	obj2.set_data(1000);
-	
+//	Deep obj1{100};
+//	display_deep(obj1);
+//	
+//	Deep obj2{obj1};
+//	obj2.set_data(1000);
+	vector <Deep> vec;
+	vec.push_back(Deep{10});
+	vec.push_back(Deep{20});
 	
 	return 0;
 }
