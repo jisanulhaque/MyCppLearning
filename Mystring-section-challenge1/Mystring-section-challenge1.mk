@@ -3,18 +3,18 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Mystring-operator-method
+ProjectName            :=Mystring-section-challenge1
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/WCS/Desktop/cpp/MyWorkspace
-ProjectPath            :=C:/Users/WCS/Desktop/cpp/MyWorkspace/Mystring-operator-method
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Mystring-operator-method
+ProjectPath            :=C:/Users/WCS/Desktop/cpp/MyWorkspace/Mystring-section-challenge1
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Mystring-section-challenge1
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=WCS
-Date                   :=07/11/2023
+Date                   :=11/11/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/MinGW/bin/g++.exe
@@ -96,12 +96,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/Mystring-operator-method/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/Mystring-section-challenge1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix): Mystring.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/Mystring-operator-method/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/Mystring-section-challenge1/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix): Mystring.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix) Mystring.cpp
 

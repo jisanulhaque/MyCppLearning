@@ -33,22 +33,22 @@ Mystring::Mystring(const Mystring &source)
 Mystring::Mystring(Mystring &&source)
 	:str{source.str}{
 		source.str =nullptr;
-		std::cout<<"Move constructor used"<<std::endl;
+		//std::cout<<"Move constructor used"<<std::endl;
 }
 
 //Destructor
 Mystring::~Mystring(){
-	if(str == nullptr)
+	/*if(str == nullptr)
 		std::cout<<"Destructor used for: nullptr"<<std::endl;
 	else
 		std::cout<<"Destructor used for:"<< str<<std::endl;
-		
+	*/
 	delete [] str;
 }
 
 //Copy Assignment
 Mystring &Mystring::operator=(const Mystring &rhs){
-	std::cout<<"Using Copy Assignment"<<std::endl;
+	//std::cout<<"Using Copy Assignment"<<std::endl;
 	
 	if(this == &rhs)
 		return *this;
@@ -61,7 +61,7 @@ Mystring &Mystring::operator=(const Mystring &rhs){
 
 //Move Assignment
 Mystring &Mystring::operator=(Mystring &&rhs){
-	std::cout<<"Using move assignment"<<std::endl;
+	//std::cout<<"Using move assignment"<<std::endl;
 	
 		if(this == &rhs)
 			return *this;
@@ -73,36 +73,6 @@ Mystring &Mystring::operator=(Mystring &&rhs){
 		 return *this; //returning the current object
 }
 
-//Overloaded operator as member func
-
-//Equality
-bool Mystring::operator==(const Mystring &rhs) const{
-	return (std::strcmp(str, rhs.str)==0);
-}
-
-//Make lowercase
-Mystring Mystring::operator-() const{
-	char *buff = new char[std::strlen(str)+1];
-	std::strcpy(buff, str);
-	for(size_t i=0; i<std::strlen(buff); i++)
-		buff[i] = std::tolower(buff[i]);
-		
-	Mystring temp{buff};
-	delete [] buff;
-	return temp;
-}
-
-//Concatanate 
-Mystring Mystring::operator+(const Mystring &rhs) const{//why not returning by ref??
-	char *buff= new char[std::strlen(str) + std::strlen(rhs.str)+1];
-	std::strcpy(buff,str);
-	std::strcat(buff,rhs.str);
-	Mystring temp{buff};
-	delete[] buff;
-	return temp;
-}
-
-
 void Mystring::display() const{
 	std::cout<<str<<":"<<get_length()<<std::endl;
 }
@@ -110,3 +80,19 @@ void Mystring::display() const{
 int Mystring::get_length() const {return strlen(str);}
 
 const char *Mystring::get_str() const{return str;}
+
+
+//Incertion Operator
+std::ostream& operator<<(std::ostream &os, const Mystring &obj){
+	os<<obj.str; //friend of Mystring class
+	return os;
+}
+
+//Extraction Operator
+std::istream& operator>>(std::istream &is, Mystring &obj){ //Mystring obj not const because we are modifying it
+	char *buff = new char[1000];
+	is >> buff;
+	obj = Mystring{buff}; //friend of Mystring class
+	delete [] buff;
+	return is;
+}

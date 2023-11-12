@@ -60,8 +60,12 @@
     <Project Name="Mystring-copy-assignment" Path="Mystring-copy-assignment/Mystring-copy-assignment.project" Active="No"/>
     <Project Name="Mystring-move-assignment" Path="Mystring-move-assignment/Mystring-move-assignment.project" Active="No"/>
     <Project Name="Mystring-operator-method" Path="Mystring-operator-method/Mystring-operator-method.project" Active="No"/>
-    <Project Name="Mystring-operator-function" Path="Mystring-operator-function/Mystring-operator-function.project" Active="Yes"/>
+    <Project Name="Mystring-operator-function" Path="Mystring-operator-function/Mystring-operator-function.project" Active="No"/>
+    <Project Name="Mystring-incertion-extraction" Path="Mystring-incertion-extraction/Mystring-incertion-extraction.project" Active="No"/>
+    <Project Name="Mystring-section-challenge1" Path="Mystring-section-challenge1/Mystring-section-challenge1.project" Active="No"/>
+    <Project Name="Mystring-section-challenge2" Path="Mystring-section-challenge2/Mystring-section-challenge2.project" Active="Yes"/>
   </VirtualDirectory>
+  <Project Name="test" Path="test/test.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -117,6 +121,10 @@
       <Project Name="Mystring-move-assignment" ConfigName="Debug"/>
       <Project Name="Mystring-operator-method" ConfigName="Debug"/>
       <Project Name="Mystring-operator-function" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+      <Project Name="Mystring-incertion-extraction" ConfigName="Debug"/>
+      <Project Name="Mystring-section-challenge1" ConfigName="Debug"/>
+      <Project Name="Mystring-section-challenge2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -172,6 +180,10 @@
       <Project Name="Mystring-move-assignment" ConfigName="Release"/>
       <Project Name="Mystring-operator-method" ConfigName="Release"/>
       <Project Name="Mystring-operator-function" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+      <Project Name="Mystring-incertion-extraction" ConfigName="Release"/>
+      <Project Name="Mystring-section-challenge1" ConfigName="Release"/>
+      <Project Name="Mystring-section-challenge2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

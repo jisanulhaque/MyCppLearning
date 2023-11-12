@@ -88,12 +88,20 @@ bool operator==(const Mystring &lhs, const Mystring &rhs){
 
 //make lowercase
 Mystring operator-(const Mystring &obj){
-	char *buff = new char[std::strlen(obj.str)+1];
+/*	char *buff = new char[std::strlen(obj.str)+1];
 	std::strcpy(buff, obj.str);
 	for(size_t i=0; i<std::strlen(buff); i++)
 		buff[i] = std::tolower(buff[i]);
 	Mystring temp{buff};
 	delete[] buff;
+	return temp;
+*/
+//Alternate Solution
+	Mystring temp;
+	temp.str = new char[std::strlen(obj.str)+1];
+	std::strcpy(temp.str,obj.str);
+	for(size_t i=0; i<std::strlen(temp.str); ++i)
+		temp.str[i] = std::tolower(temp.str[i]);
 	return temp;
 }
 

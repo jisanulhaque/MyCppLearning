@@ -37,16 +37,24 @@ Mystring::~Mystring(){
 //Copy Assignment
 Mystring &Mystring::operator=(const Mystring &rhs){
 	std::cout<<"Copy Assignment"<<std::endl;
-	
 	if(this == &rhs)
 		return *this;
-		
-	delete [] this->str;
-	str = new char[strlen(rhs.str) + 1];
-	strcpy(this->str, rhs.str);
+	delete [] str;
+	str = new char[std::strlen(rhs.str)+1];
+	std::strcpy(str,rhs.str);
 	return *this;
 }
 
+//Move Assignment
+Mystring &Mystring::operator=(Mystring &&rhs){
+	std::cout<<"Move Assignment"<<std::endl;
+	if(this == &rhs)
+		return *this;
+	delete [] str;
+	str = rhs.str;
+	rhs.str = nullptr;
+	return *this;
+}
 void Mystring::display() const{
 	std::cout<<str<<":"<<get_length()<<std::endl;
 }
