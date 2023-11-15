@@ -63,9 +63,12 @@
     <Project Name="Mystring-operator-function" Path="Mystring-operator-function/Mystring-operator-function.project" Active="No"/>
     <Project Name="Mystring-incertion-extraction" Path="Mystring-incertion-extraction/Mystring-incertion-extraction.project" Active="No"/>
     <Project Name="Mystring-section-challenge1" Path="Mystring-section-challenge1/Mystring-section-challenge1.project" Active="No"/>
-    <Project Name="Mystring-section-challenge2" Path="Mystring-section-challenge2/Mystring-section-challenge2.project" Active="Yes"/>
+    <Project Name="Mystring-section-challenge2" Path="Mystring-section-challenge2/Mystring-section-challenge2.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="test" Path="test/test.project" Active="No"/>
+  <VirtualDirectory Name="Section15">
+    <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="Yes"/>
+  </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -125,6 +128,7 @@
       <Project Name="Mystring-incertion-extraction" ConfigName="Debug"/>
       <Project Name="Mystring-section-challenge1" ConfigName="Debug"/>
       <Project Name="Mystring-section-challenge2" ConfigName="Debug"/>
+      <Project Name="DerivingOurFirstClass" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -184,6 +188,7 @@
       <Project Name="Mystring-incertion-extraction" ConfigName="Release"/>
       <Project Name="Mystring-section-challenge1" ConfigName="Release"/>
       <Project Name="Mystring-section-challenge2" ConfigName="Release"/>
+      <Project Name="DerivingOurFirstClass" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

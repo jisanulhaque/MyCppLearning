@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Mystring-section-challenge2 - Debug ]----------"
-	@cd "Mystring-section-challenge2" && "$(MAKE)" -f  "Mystring-section-challenge2.mk"
+	@echo "----------Building project:[ DerivingOurFirstClass - Debug ]----------"
+	@cd "DerivingOurFirstClass" && "$(MAKE)" -f  "DerivingOurFirstClass.mk"
 clean:
-	@echo "----------Cleaning project:[ Mystring-section-challenge2 - Debug ]----------"
-	@cd "Mystring-section-challenge2" && "$(MAKE)" -f  "Mystring-section-challenge2.mk" clean
+	@echo "----------Cleaning project:[ DerivingOurFirstClass - Debug ]----------"
+	@cd "DerivingOurFirstClass" && "$(MAKE)" -f  "DerivingOurFirstClass.mk" clean
