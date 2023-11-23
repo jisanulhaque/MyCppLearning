@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=DerivingOurFirstClass
+ProjectName            :=Protected-Members-Class-Access
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/WCS/Desktop/cpp/MyWorkspace
-ProjectPath            :=C:/Users/WCS/Desktop/cpp/MyWorkspace/DerivingOurFirstClass
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/DerivingOurFirstClass
+ProjectPath            :=C:/Users/WCS/Desktop/cpp/MyWorkspace/Protected-Members-Class-Access
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Protected-Members-Class-Access
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -64,7 +64,7 @@ AS       := C:/MinGW/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
 
@@ -96,19 +96,9 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/DerivingOurFirstClass/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/Protected-Members-Class-Access/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
-
-$(IntermediateDirectory)/Account.cpp$(ObjectSuffix): Account.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/DerivingOurFirstClass/Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Account.cpp$(PreprocessSuffix): Account.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Account.cpp$(PreprocessSuffix) Account.cpp
-
-$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix): Savings_Account.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/DerivingOurFirstClass/Savings_Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Savings_Account.cpp$(PreprocessSuffix): Savings_Account.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Savings_Account.cpp$(PreprocessSuffix) Savings_Account.cpp
 
 ##
 ## Clean

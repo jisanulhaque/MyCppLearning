@@ -67,7 +67,8 @@
   </VirtualDirectory>
   <Project Name="test" Path="test/test.project" Active="No"/>
   <VirtualDirectory Name="Section15">
-    <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="Yes"/>
+    <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="No"/>
+    <Project Name="Protected-Members-Class-Access" Path="Protected-Members-Class-Access/Protected-Members-Class-Access.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -129,6 +130,7 @@
       <Project Name="Mystring-section-challenge1" ConfigName="Debug"/>
       <Project Name="Mystring-section-challenge2" ConfigName="Debug"/>
       <Project Name="DerivingOurFirstClass" ConfigName="Debug"/>
+      <Project Name="Protected-Members-Class-Access" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -189,6 +191,7 @@
       <Project Name="Mystring-section-challenge1" ConfigName="Release"/>
       <Project Name="Mystring-section-challenge2" ConfigName="Release"/>
       <Project Name="DerivingOurFirstClass" ConfigName="Release"/>
+      <Project Name="Protected-Members-Class-Access" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
