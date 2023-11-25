@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\WCS\Desktop\cpp\MyWorkspace\MyWorkspace.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\MyWorkspace.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\Account.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\Account.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\main.cpp" Name="FileName"/>
-      <int Value="19" Name="FirstVisibleLine"/>
-      <int Value="31" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\Savings_Account.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\Savings_Account.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\Protected-Members-Class-Access\main.cpp" Name="FileName"/>
+      <int Value="37" Name="FirstVisibleLine"/>
+      <int Value="44" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
   </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
-    <long Value="66" Name="Count"/>
+    <long Value="67" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
       <wxString Value="C:/Users/WCS/Desktop/cpp/MyWorkspace/ConstInClasses/main.cpp" Name="file"/>
       <int Value="46" Name="lineno"/>
@@ -1066,7 +1038,7 @@
       <int Value="0" Name="origin"/>
     </SerializedObject>
     <SerializedObject Name="Breakpoint64">
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\main.cpp" Name="file"/>
+      <wxString Value="C:/Users/WCS/Desktop/cpp/MyWorkspace/DerivingOurFirstClass/main.cpp" Name="file"/>
       <int Value="10" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
@@ -1082,8 +1054,24 @@
       <int Value="0" Name="origin"/>
     </SerializedObject>
     <SerializedObject Name="Breakpoint65">
-      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\DerivingOurFirstClass\main.cpp" Name="file"/>
+      <wxString Value="C:/Users/WCS/Desktop/cpp/MyWorkspace/DerivingOurFirstClass/main.cpp" Name="file"/>
       <int Value="23" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <long Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint66">
+      <wxString Value="C:\Users\WCS\Desktop\cpp\MyWorkspace\Protected-Members-Class-Access\main.cpp" Name="file"/>
+      <int Value="40" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
       <int Value="1" Name="bp_type"/>

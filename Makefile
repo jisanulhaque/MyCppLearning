@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Protected-Members-Class-Access - Debug ]----------"
-	@cd "Protected-Members-Class-Access" && "$(MAKE)" -f  "Protected-Members-Class-Access.mk"
+	@echo "----------Building project:[ ConstructosAndDestructors - Debug ]----------"
+	@cd "ConstructosAndDestructors" && "$(MAKE)" -f  "ConstructosAndDestructors.mk"
 clean:
-	@echo "----------Cleaning project:[ Protected-Members-Class-Access - Debug ]----------"
-	@cd "Protected-Members-Class-Access" && "$(MAKE)" -f  "Protected-Members-Class-Access.mk" clean
+	@echo "----------Cleaning project:[ ConstructosAndDestructors - Debug ]----------"
+	@cd "ConstructosAndDestructors" && "$(MAKE)" -f  "ConstructosAndDestructors.mk" clean
