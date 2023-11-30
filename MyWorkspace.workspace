@@ -70,7 +70,8 @@
     <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="No"/>
     <Project Name="Protected-Members-Class-Access" Path="Protected-Members-Class-Access/Protected-Members-Class-Access.project" Active="No"/>
     <Project Name="ConstructosAndDestructors" Path="ConstructosAndDestructors/ConstructosAndDestructors.project" Active="No"/>
-    <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="Yes"/>
+    <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="No"/>
+    <Project Name="CopyConstructorAssignmentOperator" Path="CopyConstructorAssignmentOperator/CopyConstructorAssignmentOperator.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -135,6 +136,7 @@
       <Project Name="Protected-Members-Class-Access" ConfigName="Debug"/>
       <Project Name="ConstructosAndDestructors" ConfigName="Debug"/>
       <Project Name="BaseClassInitialization" ConfigName="Debug"/>
+      <Project Name="CopyConstructorAssignmentOperator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -198,6 +200,7 @@
       <Project Name="Protected-Members-Class-Access" ConfigName="Release"/>
       <Project Name="ConstructosAndDestructors" ConfigName="Release"/>
       <Project Name="BaseClassInitialization" ConfigName="Release"/>
+      <Project Name="CopyConstructorAssignmentOperator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
