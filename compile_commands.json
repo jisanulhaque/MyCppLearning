@@ -159,6 +159,26 @@
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PointerArithmetic\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
  }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Account.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Account.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Account.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\main.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Savings_Account.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Savings_Account.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Savings_Account.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Account.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Account.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Account.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Savings_Account.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Savings_Account.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\RedefiningBaseClassMethods\\Savings_Account.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
   "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\CharactersAndStrings\\main.cpp",
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\CharactersAndStrings",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\CharactersAndStrings\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\CharactersAndStrings\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
