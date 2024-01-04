@@ -14,12 +14,12 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=WCS
-Date                   :=24/04/2023
+Date                   :=21/12/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
-LinkerName             :="C:/Program Files/mingw64/bin/g++.exe"
-SharedObjectLinkerName :="C:/Program Files/mingw64/bin/g++.exe" -shared -fPIC
+LinkerName             :=C:/MinGW/bin/g++.exe
+SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
 ObjectSuffix           :=.o
-DependSuffix           :=.o.d
+DependSuffix           :=
 PreprocessSuffix       :=.i
 DebugSwitch            :=-g 
 IncludeSwitch          :=-I
@@ -36,9 +36,9 @@ ArchiveOutputSwitch    :=
 PreprocessOnlySwitch   :=-E
 ObjectsFileList        :="ArraysAndFunction.txt"
 PCHCompileFlags        :=
-MakeDirCommand         :=makedir
+MakeDirCommand         :="C:/Program Files/CodeLite/mkdir.exe" -p
 RcCmpOptions           := 
-RcCompilerName         :="C:/Program Files/mingw64/bin/windres.exe"
+RcCompilerName         :=C:/MinGW/bin/windres.exe
 LinkOptions            :=  -static
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -51,13 +51,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overridden using an environment variable
 ##
-AR       := "C:/Program Files/mingw64/bin/ar.exe" rcu
-CXX      := "C:/Program Files/mingw64/bin/g++.exe"
-CC       := "C:/Program Files/mingw64/bin/gcc.exe"
+AR       := C:/MinGW/bin/ar.exe -r
+CXX      := C:/MinGW/bin/g++.exe
+CC       := C:/MinGW/bin/gcc.exe
 CXXFLAGS :=  -g -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := "C:/Program Files/mingw64/bin/as.exe"
+AS       := C:/MinGW/bin/as.exe
 
 
 ##
@@ -96,13 +96,10 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/ArraysAndFunction/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
-
--include $(IntermediateDirectory)/*$(DependSuffix)
 ##
 ## Clean
 ##

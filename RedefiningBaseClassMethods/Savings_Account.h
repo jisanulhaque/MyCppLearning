@@ -4,7 +4,7 @@
 #include"Account.h"
 
 class Savings_Account: public Account{
-	friend std::ostream &operator<<(std::ostream &os, const Savings_Account &account);
+	//friend std::ostream &operator<<(std::ostream &os, const Savings_Account &account);
 	
 protected:
 	double int_rate;

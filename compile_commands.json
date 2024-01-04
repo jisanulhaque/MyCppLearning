@@ -63,30 +63,6 @@
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\Mystring-start",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\Mystring-start\\Mystring.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\Mystring-start\\Mystring.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
  }, {
-  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3\\main.cpp",
-  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3",
-  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
- }, {
-  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\main.cpp",
-  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
-  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
- }, {
-  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movie.h",
-  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
-  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movie.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movie.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
- }, {
-  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movie.cpp",
-  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
-  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movie.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movie.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
- }, {
-  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movies.cpp",
-  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
-  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movies.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movies.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
- }, {
-  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movies.h",
-  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
-  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movies.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Movies.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
- }, {
   "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstInClasses\\main.cpp",
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstInClasses",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstInClasses\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\ConstInClasses\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
@@ -374,6 +350,54 @@
   "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\VariablesAndConstants\\main.cpp",
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\VariablesAndConstants",
   "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\VariablesAndConstants\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\VariablesAndConstants\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Savings_Account.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Savings_Account.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Savings_Account.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Savings_Account.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Savings_Account.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Savings_Account.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Checking_Account.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Checking_Account.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Checking_Account.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\main.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Trust_Account.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Trust_Account.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Trust_Account.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Trust_Account.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Trust_Account.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Trust_Account.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account_Util.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account_Util.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account_Util.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account_Util.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account_Util.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account_Util.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Account.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Checking_Account.h",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Checking_Account.h -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\sectionChallenge\\Checking_Account.h.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }, {
+  "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3\\main.cpp",
+  "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3",
+  "command": "C:/MinGW/bin/g++.exe -c C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3\\main.cpp -o C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers3\\main.cpp.o -target mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++ -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\mingw32 -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++\\backward -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include -Ic:\\MinGW\\include -Ic:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include-fixed -Ic:\\MinGW\\mingw32\\include -I. -I.  -g  -O0  -std=c++17  -Wall"
  }, {
   "file": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers2\\main.cpp",
   "directory": "C:\\Users\\WCS\\Desktop\\cpp\\MyWorkspace\\PassingPointers2",

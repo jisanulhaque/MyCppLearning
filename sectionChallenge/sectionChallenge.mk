@@ -3,7 +3,7 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=sectionChallenge
+ProjectName            :=SectionChallenge
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=C:/Users/WCS/Desktop/cpp/MyWorkspace
@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=WCS
-Date                   :=04/08/2023
+Date                   :=28/12/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/MinGW/bin/g++.exe
@@ -64,7 +64,7 @@ AS       := C:/MinGW/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Movie.cpp$(ObjectSuffix) $(IntermediateDirectory)/Movies.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/Checking_Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Trust_Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/Account_Util.cpp$(ObjectSuffix) $(IntermediateDirectory)/Account.cpp$(ObjectSuffix) 
 
 
 
@@ -95,20 +95,35 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix): Savings_Account.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Savings_Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Savings_Account.cpp$(PreprocessSuffix): Savings_Account.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Savings_Account.cpp$(PreprocessSuffix) Savings_Account.cpp
+
+$(IntermediateDirectory)/Checking_Account.cpp$(ObjectSuffix): Checking_Account.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Checking_Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Checking_Account.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Checking_Account.cpp$(PreprocessSuffix): Checking_Account.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Checking_Account.cpp$(PreprocessSuffix) Checking_Account.cpp
+
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
-$(IntermediateDirectory)/Movie.cpp$(ObjectSuffix): Movie.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Movie.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Movie.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Movie.cpp$(PreprocessSuffix): Movie.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Movie.cpp$(PreprocessSuffix) Movie.cpp
+$(IntermediateDirectory)/Trust_Account.cpp$(ObjectSuffix): Trust_Account.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Trust_Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Trust_Account.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Trust_Account.cpp$(PreprocessSuffix): Trust_Account.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Trust_Account.cpp$(PreprocessSuffix) Trust_Account.cpp
 
-$(IntermediateDirectory)/Movies.cpp$(ObjectSuffix): Movies.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Movies.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Movies.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Movies.cpp$(PreprocessSuffix): Movies.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Movies.cpp$(PreprocessSuffix) Movies.cpp
+$(IntermediateDirectory)/Account_Util.cpp$(ObjectSuffix): Account_Util.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Account_Util.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Account_Util.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Account_Util.cpp$(PreprocessSuffix): Account_Util.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Account_Util.cpp$(PreprocessSuffix) Account_Util.cpp
+
+$(IntermediateDirectory)/Account.cpp$(ObjectSuffix): Account.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/WCS/Desktop/cpp/MyWorkspace/sectionChallenge/Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Account.cpp$(PreprocessSuffix): Account.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Account.cpp$(PreprocessSuffix) Account.cpp
 
 ##
 ## Clean

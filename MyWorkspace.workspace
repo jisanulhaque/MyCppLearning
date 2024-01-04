@@ -72,7 +72,8 @@
     <Project Name="ConstructosAndDestructors" Path="ConstructosAndDestructors/ConstructosAndDestructors.project" Active="No"/>
     <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="No"/>
     <Project Name="CopyConstructorAssignmentOperator" Path="CopyConstructorAssignmentOperator/CopyConstructorAssignmentOperator.project" Active="No"/>
-    <Project Name="RedefiningBaseClassMethods" Path="RedefiningBaseClassMethods/RedefiningBaseClassMethods.project" Active="Yes"/>
+    <Project Name="RedefiningBaseClassMethods" Path="RedefiningBaseClassMethods/RedefiningBaseClassMethods.project" Active="No"/>
+    <Project Name="SectionChallenge" Path="SectionChallenge/SectionChallenge.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -139,6 +140,7 @@
       <Project Name="BaseClassInitialization" ConfigName="Debug"/>
       <Project Name="CopyConstructorAssignmentOperator" ConfigName="Debug"/>
       <Project Name="RedefiningBaseClassMethods" ConfigName="Debug"/>
+      <Project Name="SectionChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -204,6 +206,7 @@
       <Project Name="BaseClassInitialization" ConfigName="Release"/>
       <Project Name="CopyConstructorAssignmentOperator" ConfigName="Release"/>
       <Project Name="RedefiningBaseClassMethods" ConfigName="Release"/>
+      <Project Name="SectionChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
