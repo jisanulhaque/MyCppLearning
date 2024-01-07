@@ -76,7 +76,8 @@
     <Project Name="SectionChallenge" Path="SectionChallenge/SectionChallenge.project" Active="No"/>
   </VirtualDirectory>
   <VirtualDirectory Name="Section16">
-    <Project Name="TheProblem" Path="TheProblem/TheProblem.project" Active="Yes"/>
+    <Project Name="TheProblem" Path="TheProblem/TheProblem.project" Active="No"/>
+    <Project Name="BaseClassPointer" Path="BaseClassPointer/BaseClassPointer.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -145,6 +146,7 @@
       <Project Name="RedefiningBaseClassMethods" ConfigName="Debug"/>
       <Project Name="SectionChallenge" ConfigName="Debug"/>
       <Project Name="TheProblem" ConfigName="Debug"/>
+      <Project Name="BaseClassPointer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -212,6 +214,7 @@
       <Project Name="RedefiningBaseClassMethods" ConfigName="Release"/>
       <Project Name="SectionChallenge" ConfigName="Release"/>
       <Project Name="TheProblem" ConfigName="Release"/>
+      <Project Name="BaseClassPointer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
